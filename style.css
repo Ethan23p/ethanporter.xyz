@@ -105,4 +105,25 @@ blockquote p:last-child { margin-bottom: 0; }
 .card--text { padding-top: 1rem; }
 .card-line { margin-top: 0.5rem; font-size: 1.125rem; }
 
+/* Project pages */
+.project > * { margin: 0 0 1.5rem; }
+.project h1 { margin-bottom: 0.5rem; font-size: clamp(2.5rem, 8vw, 4.25rem); }
+.crumb { margin-bottom: 1rem; font-size: 1rem; }
+.meta { font-size: 1rem; color: var(--muted); }
+.hero, .gallery figure { margin: 0; }
+.hero img, .gallery img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 75vh;
+  margin: 0 auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.gallery { display: grid; gap: 1rem; }
+.outline { padding-left: 1.25rem; }
+.outline li { padding: 0.25rem 0; }
+.links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; padding: 0; list-style: none; }
+code { font-size: 0.9em; color: var(--accent); }
+
 footer { font-size: 1rem; color: var(--muted); }
