@@ -123,7 +123,7 @@ blockquote p:last-child { margin-bottom: 0; }
 .gallery { display: grid; gap: 1rem; }
 .outline { padding-left: 1.25rem; }
 .outline li { padding: 0.25rem 0; }
-.links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; padding: 0; list-style: none; }
+.links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; padding: 0; list-style: none; font-weight: 400; }
 code { font-size: 0.9em; color: var(--accent); }
 
 footer { font-size: 1rem; color: var(--muted); }
